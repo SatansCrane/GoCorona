@@ -1,0 +1,56 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1090px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+img {
+    padding: 0;
+    margin: 0;
+}
+
+.pink {
+    color: #ec5863;
+}
+
+.blue {
+    color: #4285f4;
+}
+
+.wrap {
+    overflow: hidden;
+}
+
+.none {
+    display: none;
+}

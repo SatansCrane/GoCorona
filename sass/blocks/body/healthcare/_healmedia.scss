@@ -1,0 +1,48 @@
+
+
+
+
+@media (max-width: 767.98px) {
+    .container {
+        max-width: none;
+    }
+    .healthcare_blocks-items {
+        width: 200px;
+    }
+    .healthcare_blocks-img {
+        padding: 38px 70px 35px 62px;
+    }
+    .healthcare_blocks_title {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 138.5%;
+        letter-spacing: 0.08em;
+        color: #000000;
+        margin-bottom: 4px;
+    }
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .healthcare_blocks {
+        flex-direction: column;
+        align-items: center;
+    }
+    .healthcare__content_text {
+        max-width: 290px;
+    }
+    .healthcare_title-text {
+        padding-bottom: 20px;
+    }
+    .healthcare_blocks-items {
+        margin-bottom: 25px;
+    }
+    .healthcare_blocks-items:last-child {
+        margin-bottom: 0;
+    }
+}

@@ -1,0 +1,90 @@
+
+/* ===== Блок статистики ===== */
+
+
+.experts {
+    background-color: #fafbfd;
+    padding: 103px 0 116px 0;
+    
+}
+
+.statistiks-experts {
+    max-width: 654px;
+    margin: 0px auto;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.statistiks-experts__body {
+    background-color: #fff;
+    box-shadow: 0px 2px 24px rgba(88, 126, 236, 0.15);
+    border-radius: 16px;
+    position: relative;
+    z-index: 2;
+}
+
+.body-statistiks-experts {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 28px 80px;
+}
+
+/* ===== Decor texta ===== */
+
+.body-statistiks-experts__value {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    letter-spacing: 0.14em;
+    color: #ec5863
+}
+
+.body-statistiks-experts__text {
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 13px;
+    text-align: center;
+    letter-spacing: 0.37em;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+
+
+
+/* ===== DECOR ===== */
+
+.statistiks-experts__decor {
+    position: absolute;
+    background-color: #ec5863;
+    border-radius: 30px;
+}
+
+.statistiks-experts__decor_1 {
+    border-radius: 16px;
+    width: 65px;
+    height: 65px;
+    transform: rotate(-30deg);
+    bottom: -21px;
+    left: -21px;
+}
+
+.statistiks-experts__decor_2 {
+    width: 97px;
+    height: 97px;
+    transform: rotate(105deg);
+    top: -46px;
+    left: 235px;
+}
+
+.statistiks-experts__decor_3 {
+    width: 127px;
+    height: 127px;
+    transform: rotate(-30deg);
+    right: -75px;
+    bottom: -5px;
+}
+
+

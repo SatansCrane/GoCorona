@@ -1,0 +1,29 @@
+
+
+.experts__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.experts__content_content {
+    max-width: 400px;
+    margin-right: 90px;
+}
+
+.experts__content_text {
+    padding-right: 30px;
+}
+
+
+
+.experts__content_video {
+    background-color: #fff;
+    box-shadow: 0px 4px 18px rgba(88, 126, 236, 0.18);
+    border-radius: 8px;
+    margin-right: 12px;
+}
+
+.experts_img {
+    padding: 24px 94px;
+}
